@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Ticketing System</title>
+
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand">E-Ticketing</a>
+
+<div>
+<a class="nav-link d-inline text-white" href="#login">Login</a>
+<a class="nav-link d-inline text-white" href="#register">Register</a>
+<a class="nav-link d-inline text-white" href="#events">Events</a>
+<a class="nav-link d-inline text-white" href="#cart">Cart</a>
+</div>
+</div>
+</nav>
+
+<!-- LOGIN -->
+<div id="login" class="container mt-5">
+<div class="card mx-auto p-4" style="max-width:400px;">
+<h3 class="text-center">Login</h3>
+
+<form>
+<input class="form-control my-2" type="email" placeholder="Email" required>
+<input class="form-control my-2" type="password" placeholder="Password" required>
+<button class="btn btn-primary w-100">Login</button>
+</form>
+
+</div>
+</div>
+
+<!-- REGISTER -->
+<div id="register" class="container mt-5">
+<div class="card mx-auto p-4" style="max-width:400px;">
+<h3 class="text-center">Register</h3>
+
+<form>
+<input class="form-control my-2" type="text" placeholder="Full Name">
+<input class="form-control my-2" type="email" placeholder="Email">
+<input class="form-control my-2" type="password" placeholder="Password">
+<input class="form-control my-2" type="password" placeholder="Confirm Password">
+<button class="btn btn-success w-100">Register</button>
+</form>
+
+</div>
+</div>
+
+<!-- EVENTS -->
+<div id="events" class="container mt-5">
+<h2 class="text-center mb-4">Available Events</h2>
+
+<div class="row">
+
+<div class="col-md-4 mb-4">
+<div class="card">
+<img src="https://via.placeholder.com/300x200" class="card-img-top">
+<div class="card-body text-center">
+<h5>Movie Night</h5>
+<p>₹250</p>
+<button class="btn btn-primary">Book Ticket</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-4">
+<div class="card">
+<img src="https://via.placeholder.com/300x200" class="card-img-top">
+<div class="card-body text-center">
+<h5>Music Concert</h5>
+<p>₹500</p>
+<button class="btn btn-primary">Book Ticket</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-4">
+<div class="card">
+<img src="https://via.placeholder.com/300x200" class="card-img-top">
+<div class="card-body text-center">
+<h5>Tech Fest</h5>
+<p>₹300</p>
+<button class="btn btn-primary">Book Ticket</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- CART -->
+<div id="cart" class="container mt-5 mb-5">
+<div class="card p-4">
+<h3>Booked Tickets</h3>
+
+<div class="d-flex justify-content-between">
+<span>Movie Night</span>
+<span>₹250</span>
+</div>
+
+<div class="d-flex justify-content-between">
+<span>Music Concert</span>
+<span>₹500</span>
+</div>
+
+<hr>
+<h4>Total: ₹750</h4>
+
+</div>
+</div>
+
+</body>
+</html>
